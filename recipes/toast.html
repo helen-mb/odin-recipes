@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Toast</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1>Toast</h1>
     <!-- Adding an image -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/ToastedWhiteBread.jpg/800px-ToastedWhiteBread.jpg" alt="Two pieces of dry white toast, one on top of the other.">
+
     <!-- Adding a description of the finished product -->
     <h2>Description</h2>
     <p>Some dry white toast.</p>
-        <p>White bread, toasted.</p>
-    <!-- Adding an unordered ingredients list -->
-    <h2>Ingredients</h2>
-    <ul>
-        <li>A slice of white bread</li>
-        <li>Another slice of white bread (if you're feeling wild)</li>
-        <li>Heat source - e.g. toaster, electric coil, gas range, hair dryer</li>
-    </ul>
-    <!-- Adding an ordered list of steps -->
-    <h2>Steps</h2>
-    <ol>
-        <li>Take the slice of bread and place it on or near the heat source</li>
-        <li>Watch it while waiting</li>
-        <li>(Optional) Check the slice for colour</li>
-        <li>(Optional) Flip the slice</li>
-        <li>Decide when the colour is satisfactory</li>
-        <li>Remove the toast</li>
-    </ol>
+    <p>White bread, toasted.</p>
+
+    <div class="float-parent">
+        <div class="float-child">
+            <!-- Adding an unordered ingredients list -->
+            <h2>Ingredients</h2>
+            <ul class="box">
+                <li>A slice of white bread</li>
+                <li>Another slice of white bread (if you're feeling wild)</li>
+                <li>Heat source - e.g. toaster, electric coil, gas range, hair dryer</li>
+            </ul>
+        </div>
+
+        <!-- Adding an ordered list of steps -->
+        <div class="float-child">
+            <h2>Steps</h2>
+            <ol class="box">
+                <li>Take the slice of bread and place it on or near the heat source</li>
+                <li>Watch it while waiting</li>
+                <li>(Optional) Check the slice for colour</li>
+                <li>(Optional) Flip the slice</li>
+                <li>Decide when the colour is satisfactory</li>
+                <li>Remove the toast</li>
+            </ol>
+        </div>
+    </div>
+    
 </body>
 </html>
