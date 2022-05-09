@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(205, 243, 255);
+}
+
+h1,
+h2 {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    height: 40px;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+p {
+    margin-left: 100px;
+}
+
+.box {
+    background-color: whitesmoke;
+    height: auto;
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+}
+
+.float-child {
+    float: left;
+    width: 50%;
+}
+
+li {
+    font-weight: 600;
+    font-size: large;
+}
